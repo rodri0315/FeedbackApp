@@ -1,6 +1,6 @@
 // Main server file where we'll start our node server from.
 const express = require('express');
-const keys = require('./config/dev');
+const keys = require('./config/keys');
 const mongoose = require('mongoose');
 const passport = require('passport');
 const cookieSession = require('cookie-session');
